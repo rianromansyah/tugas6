@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container {
+            background-color: pink;
+            padding: 20px;
+        }
+        .main{
+            display: flex;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            background-color: red;
+            height: 50px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            background-color: red;
+            height: 50px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .main div.aside{
+            height: 300px;
+            background-color: orange;
+            width: 25%;
+            margin-right: 10px;
+        }
+        .main div.article{
+            background-color: yellow;
+            width: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .content div.img {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .content {
+            background-color: wheat;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .content p{
+            text-align: center;
+        }
+        .aside{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 100px;
+            border: 2px solid firebrick;
+            background-color: aliceblue;
+            border-radius: 5px;
+        }
 
+    </style>
+    <title>Tugas 6.3</title>
+</head>
+<body>
+    <div class="container">
+        <header><p>Header</p></header>
+        <div class="main">
+            <div class="aside"><p>Aside</p></div>
+            <div class="article">
+                <div class="content">
+                    <p>
+                        Article
+                    </p>
+                    <div class="img">
+                        <img src="./assets/gb1.jpg" class="1">
+                        <img src="./assets/gb2.jpg" class="2">
+                        <img src="./assets/gb3.jpg" class="3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer><p>Footer</p></footer>
+    </div>
+</body>
+</html>
